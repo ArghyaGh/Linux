@@ -9,6 +9,7 @@ fish install -------
 5. chsh -s /usr/bin/fish
 
 theaming ------------
+theme images = https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md
 omf theme = lists themes
 omf install <theme name>
 omf theme <theme name> =  set theme
