@@ -1,2 +1,4 @@
 pre installs ----------
 alacritty, feh, rofi
+config ----------------
+paste "config.py" to .config/qtile
