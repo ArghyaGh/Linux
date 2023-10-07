@@ -2,3 +2,5 @@ pre installs ----------
 alacritty, feh, rofi
 config ----------------
 paste "config.py" to .config/qtile
+more rices ------------
+https://pholder.com/qtile
