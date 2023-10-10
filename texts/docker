@@ -1,0 +1,11 @@
+container migration------------------
+
+Here are the steps you need to follow:
+Export your container using the `docker export` command.
+Copy the exported tar file to the new host using a secure file transfer protocol such as SCP or SFTP.
+Import the container using the `docker import` command.
+Run the container on the new host using the `docker run` command.
+
+jellyskin theme----------------------
+https://github.com/prayag17/JellySkin
+https://github.com/CTalvio/Ultrachromic
