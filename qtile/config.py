@@ -211,4 +211,4 @@ wl_input_rules = None
 # java that happens to be on java's whitelist.
 wmname = "LG3D"
 
-autostart = [ "feh --bg-fill /mnt/mass_storage/wallpaper/scene/scene4/peakpx\ \(36\).jpg"  ]
+autostart = [ "feh --bg-fill /mnt/mass_storage/wallpaper/anime/waifu/wallpaperflare.com_wallpaper\ \(14\).jpg"  ]
