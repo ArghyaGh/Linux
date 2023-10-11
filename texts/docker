@@ -7,5 +7,9 @@ Import the container using the `docker import` command.
 Run the container on the new host using the `docker run` command.
 
 jellyskin theme----------------------
+
 https://github.com/prayag17/JellySkin
 https://github.com/CTalvio/Ultrachromic
+
+Dashboard => General => Custom CSS (field) > paste
+then user settings (top right corner) => display => themes > choose theme
