@@ -12,3 +12,4 @@ set payload <path/to/payload/payload_name>
 show options     -----    shows the missing fields
 set LHOST/LPORT=<input>
 exploit
+help    ------   show a list of commands of what we can do
