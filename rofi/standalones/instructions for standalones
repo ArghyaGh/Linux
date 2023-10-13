@@ -1,0 +1,4 @@
+setup ------------------------------------------------------------
+download and paste the "standalones" folder in ~/.config/rofi/
+run ------------------------------------------------------------
+rofi -show drun -theme ~/.config/rofi/standalones/<theme name>
