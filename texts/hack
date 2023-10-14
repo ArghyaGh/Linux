@@ -1,3 +1,4 @@
+MSFWORKS-----------------------------------------------------------------------------------------------------------------------------
 stage 1:
 
 windows bind shell creation--------------------------------------------------------
@@ -14,7 +15,13 @@ set LHOST/LPORT=<input>
 exploit
 help    ------   show a list of commands of what we can do
 
-
-
 source:
 metasploit android = https://www.youtube.com/watch?v=YRm-St0bJhU&ab_channel=LoiLiangYang
+
+
+
+NMAPWORKS-----------------------------------------------------------------------------------------------------------------------------
+nmap -sn 192.168.0.0/24 = - scan network, quick scan of all the connected devices of a network
+nmap <specific device ip> = quick scan of a device and see its running services
+nmap <specific device ip> --script=vulners.nse -sV = comprehensive vaulnerability scan of a device
+
