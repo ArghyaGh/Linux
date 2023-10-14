@@ -8,9 +8,6 @@ Run the container on the new host using the `docker run` command.
 
 jellyskin theme----------------------
 
-https://github.com/prayag17/JellySkin
-https://github.com/CTalvio/Ultrachromic
-or
 add repository = https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json = paste this link to dashboard => plugins => repository > add repository (+ sign)
 then go to "catalog" to see new plugins = skin manager = install them
 then go to "my plugins" page and click on the "skin manager" plugin to change theme
