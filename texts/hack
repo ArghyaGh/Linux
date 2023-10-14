@@ -24,4 +24,9 @@ NMAPWORKS-----------------------------------------------------------------------
 nmap -sn 192.168.0.0/24 = - scan network, quick scan of all the connected devices of a network
 nmap <specific device ip> = quick scan of a device and see its running services
 nmap <specific device ip> --script=vulners.nse -sV = comprehensive vaulnerability scan of a device
+sudo nmap --script vuln <target ip address> = scan a device with all vaulnerability scripts
+sudo nmap -sS 192.168.0.0/24 = stealth scan of the entire network
+sudo nmap -sS <target ip address> = stealth scan a device
+sudo nmap -O <target ip address> = guess target os
+sudo nmap -A <target ip address> =  very detailed scan of target device
 
