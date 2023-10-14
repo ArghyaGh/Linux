@@ -12,7 +12,7 @@ https://github.com/prayag17/JellySkin
 https://github.com/CTalvio/Ultrachromic
 or
 add repository = https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json = paste this link to dashboard => plugins => repository > add repository (+ sign)
-then go to "catalog" to see new plugins = skin manager, theme songs.
+then go to "catalog" to see new plugins = skin manager, theme songs = install them
 
 Dashboard => General => bottom of page => Custom CSS (field) > paste
 then user settings (top right corner) => display > go through all the settings 
