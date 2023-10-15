@@ -6,6 +6,10 @@ Copy the exported tar file to the new host using a secure file transfer protocol
 Import the container using the `docker import` command.
 Run the container on the new host using the `docker run` command.
 
+docker portainer volume mapping-----------------
+host field = /actual/path/on/ur/hard/drive
+container field = /any_name
+
 jellyskin theme----------------------
 
 add repository = https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json = paste this link to dashboard => plugins => repository > add repository (+ sign)
