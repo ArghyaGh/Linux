@@ -15,11 +15,17 @@ show options     -----    shows the missing fields
 set LHOST/LPORT=<input>
 exploit
 help    ------   show a list of commands of what we can do
-
+msfconsole -r /path/to/list.txt = msf custop scritp run 
+windows persistance and handler script vid = https://www.youtube.com/watch?v=bTun7InPfew&list=PLBf0hzazHTGMoQ4B8dXy4kpPoo7ibemEm&index=7
 source:
 android = metasploit android = https://www.youtube.com/watch?v=YRm-St0bJhU&ab_channel=LoiLiangYang
 windows = https://www.youtube.com/watch?v=ivpmlbt729k&t=4s
 
+ANDRORATWORKS-------------------------------------------------------------------------------------------------------------------------
+sources 
+= https://www.youtube.com/watch?v=QxRy9sVUMQU = androrat
+= https://www.youtube.com/watch?v=L6zL4X5yE5A = adb and scrcpy
+= https://www.youtube.com/watch?v=wDwhxPwpznE = bind and ui
 
 NMAPWORKS-----------------------------------------------------------------------------------------------------------------------------
 nmap -sn 192.168.0.0/24 = - scan network, quick scan of all the connected devices of a network
