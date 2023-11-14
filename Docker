@@ -6,3 +6,4 @@ remove all unused volumes: docker volume prune
 
 list all containers: docker ps -a
 list all volumes: docker volume ls
+list all network: docker network ls
