@@ -1,8 +1,14 @@
 portainer installation:
 docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data --name portainer portainer/portainer
 
-remove all unused images: docker image prune -a
-remove all unused volumes: docker volume prune
+remove all unused images: docker image prune -a  #remove all unused images
+docker volume prune  #remove all unused volumes
+
+docker stop $(docker ps -a -q)   # Stop all running containers
+docker rm $(docker ps -a -q)     # Remove all containers
+docker rmi $(docker images -q)   # Remove all images
+docker volume rm $(docker volume ls -q)   # Remove all volumes
+
 
 list all containers: docker ps -a
 list all volumes: docker volume ls
