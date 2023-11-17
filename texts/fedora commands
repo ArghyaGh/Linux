@@ -1,0 +1,2 @@
+sudo dnf autoremove
+sudo dnf clean all
