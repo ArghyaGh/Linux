@@ -1,5 +1,6 @@
 sudo dnf autoremove
 sudo dnf clean all
+sudo dnf clean packages
 sudo usermod -aG docker $USER
 
 
