@@ -28,3 +28,6 @@ then go to "my plugins" page and click on the "skin manager" plugin to change th
 
 Dashboard => General => bottom of page => Custom CSS (field) > paste
 then user settings (top right corner) => display > go through all the settings 
+
+nextcloud trusted ip addresses----------------------
+/mnt/mass_storage/docker/docker/volumes/7321f6cabc53564e3d541bf0968d03549b8a1d475c74a8820f81273af37d791a/_data
