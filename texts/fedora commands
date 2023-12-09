@@ -10,3 +10,5 @@ firewall:-----------------------------------------------------------------
 sudo firewall-cmd --add-port=<port_number>/tcp --permanent
 sudo firewall-cmd --reload
 sudo firewall-cmd --list-ports
+
+chmod -R 777 /path/to/your/folder - change permission of a folder so that everone can access, read, write
